@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
 
-// In-memory cart storage (in production, use a database)
+
 let carts = {};
 
 // Routes
@@ -85,7 +85,7 @@ app.delete('/api/cart/:sessionId', (req, res) => {
     res.json({ success: true });
 });
 
-// Serve HTML files
+
 app.get('/cart.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'cart.html'));
 });

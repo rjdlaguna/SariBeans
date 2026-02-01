@@ -3,6 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Review your shopping cart at Sari-Sari Filipino Coffee. Add, remove, or update items and proceed to checkout for authentic Philippine coffee.">
+    <meta name="keywords" content="shopping cart, coffee cart, checkout, Filipino coffee, Sari-Sari, Philippine coffee">
+    <meta property="og:title" content="Shopping Cart - Sari-Sari Filipino Coffee">
+    <meta property="og:description" content="Review your shopping cart at Sari-Sari Filipino Coffee. Add, remove, or update items and proceed to checkout for authentic Philippine coffee.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzaG9wfGVufDF8MHx8fHwxNzY5MDQ3ODQxfDA&ixlib=rb-4.1.0&q=80&w=1200">
+    <meta property="og:url" content="https://saribeans.store/cart.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shopping Cart - Sari-Sari Filipino Coffee">
+    <meta name="twitter:description" content="Review your shopping cart at Sari-Sari Filipino Coffee. Add, remove, or update items and proceed to checkout for authentic Philippine coffee.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzaG9wfGVufDF8MHx8fHwxNzY5MDQ3ODQxfDA&ixlib=rb-4.1.0&q=80&w=1200">
+    <link rel="canonical" href="https://saribeans.store/cart.html">
+    <meta name="robots" content="index, follow">
     <title>Cart - Sari-Sari Filipino Coffee</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +24,7 @@
     <link rel="stylesheet" href="cart.css">
 </head>
 <body>
-    <!-- Header -->
+    
     <header class="header">
         <div class="header-container">
             <a href="index.html" class="logo">
@@ -54,16 +67,16 @@
             </div>
 
             <div class="cart-items" id="cart-items">
-                <!-- Cart items will be loaded here -->
+                
             </div>
 
             <div class="cart-summary" id="cart-summary">
-                <!-- Order summary will be loaded here -->
+                
             </div>
         </div>
     </main>
 
-    <!-- Footer -->
+    
     <footer id="contact" class="footer">
         <div class="container">
             <div class="footer-grid">
@@ -83,7 +96,7 @@
                     <p class="footer-salamat">Salamat sa inyong bisita!</p>
                 </div>
 
-                <!-- Quick Links -->
+                
                 <div>
                     <h4 class="footer-title">Quick Links</h4>
                     <ul class="footer-links">
@@ -95,7 +108,7 @@
                     </ul>
                 </div>
 
-                <!-- Contact Info -->
+                
                 <div>
                     <h4 class="footer-title">Contact</h4>
                     <ul class="footer-contact">
@@ -105,7 +118,7 @@
                     </ul>
                 </div>
 
-                <!-- Newsletter -->
+                
                 <div class="newsletter">
                     <h4 class="footer-title">Stay Connected</h4>
                     <p class="newsletter-text">
@@ -137,17 +150,17 @@
 
     <script src="cart.js"></script>
     <script>
-        // Set Current Year in Footer
+        
         document.getElementById('year').textContent = new Date().getFullYear();
 
-        // Newsletter Form Submission
+        
         document.getElementById('newsletter-form').addEventListener('submit', function(event) {
             event.preventDefault();
             alert('Thank you for subscribing!');
             this.reset();
         });
 
-        // Mobile Menu Toggle
+        
         function toggleMobileMenu() {
             const mobileNav = document.getElementById('mobile-nav');
             const menuIcon = document.getElementById('menu-icon');
